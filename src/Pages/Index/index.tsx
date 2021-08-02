@@ -6,8 +6,8 @@ import '../../styles/global.scss';
 
 import { SideBar } from '../../components/ViewContent/SideBar';
 import { Content } from '../../components/ViewContent/Content';
-import GenreResponseProps from "../../components/Interfaces/GenreResponseProps"
-import MovieProps from "../../components/Interfaces/MovieProps"
+import GenreResponseProps from "../../components/Interfaces/IGenreResponseProps"
+import MovieProps from "../../components/Interfaces/IMovieProps"
 
 export function Index() {
     const [selectedGenreId, setSelectedGenreId] = useState(1);
